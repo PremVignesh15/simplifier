@@ -9,6 +9,7 @@ class SimplifyRequest(BaseModel):
     temperature: Optional[float] = Field(None, description="Optional: override default temperature (0.0-1.0).")
 
 class SimplifyResponse(BaseModel):
-    original: str
+    
     simplified: str
+
 
