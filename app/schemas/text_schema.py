@@ -11,4 +11,4 @@ class SimplifyRequest(BaseModel):
 class SimplifyResponse(BaseModel):
     original: str
     simplified: str
-    model: Optional[str] = None
+
