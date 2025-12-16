@@ -11,5 +11,7 @@ class SimplifyRequest(BaseModel):
 class SimplifyResponse(BaseModel):
     
     simplified: str
+    original: str
+
 
 
